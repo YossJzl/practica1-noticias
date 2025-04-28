@@ -1,0 +1,156 @@
+.Noticia1{
+    width: 800px;
+    height: 200px;
+    background-color:#f6e8fd ;
+    border-radius: 10px;
+    overflow: hidden ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Noticia2{
+    width: 800px;
+    height: 200px;
+    background-color:#f6e8fd;
+    border-radius: 10px;
+    overflow: hidden ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Noticia1 h3{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.Noticia1 p{
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 30px;
+    justify-content:baseline ;
+}
+.Noticia2 h3{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.Noticia2 p{
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 30px;
+    justify-content:baseline ;
+}
+.publicidad{
+    margin-top: -70px;
+    margin-bottom: 100px;
+}
+.publicidad p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 1px;
+    font-weight: bold;
+    color: rgb(148, 148, 148);
+}
+.publicidad h3{
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 10px;
+    font-size: 25px;
+
+}
+.publicidad ul a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.publicidad ul a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+}
+.fotitoloca{
+   margin-top: -400px;
+margin-left: 900px;
+}
+.img-foto{
+    width: 700px;
+    height: 600px;
+    border-radius: 5px;
+}
+/* segundaparte (noticias) */ 
+.noticiasnots article{
+    background-color: #f5d2f2;
+    border-radius: 20px;
+    border-width: 50px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.noticiasnots h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 100px;
+}
+.noticiasnots p{
+    margin-left: 30px;
+    box-sizing: border-box;
+    padding: 0px 200px 30px 200px;
+    text-align: justify;
+}
+.noticiasnots img{
+  margin-left: 420px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+  width: 40%;
+  height: auto;
+}
+/* terceraparte (horoscopos) */ 
+.horosnots h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #dcbdec;
+}
+.horosnots article{
+    width:600px;
+    height: 250px;
+    margin:8px;
+    background-color: #ddabde;
+    text-align: center;
+    display: inline-flex;
+    border-radius: 8px;
+    
+}
+.horosnots h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;  
+    text-align: center;
+    color: #8a57a5;
+}
+.horosnots p{
+text-align: justify;
+margin-left: -20px;
+margin-right: 50px;
+margin-top: 50PX;
+font-family:'Times New Roman', Times, serif;
+font-size: 20px;
+
+}
+.autor{
+    text-align: right;
+    
+} 
+/* cuerteparte (quemados)*/
+.quemadosnots article{
+    margin: 50px;
+    background-color: #dcbdec;
+    border-radius: 8px;
+    display: inline-flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
