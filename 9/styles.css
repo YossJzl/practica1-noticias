@@ -1,0 +1,128 @@
+/* Reset de márgenes y bordes */
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+    /* Estilo del body */
+body{
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+  
+}
+    /* Estilo del header */
+header{
+    background-color: rgb(4, 10, 58); 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 8px; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000;
+ }
+    /* Estilo del logo */
+.logo{
+    display: flex; 
+    align-items: center; 
+}
+.img-logo{
+    height: 40px; 
+    margin-right: 8px;
+}
+.logo h2{
+    font-size: 25px; 
+    font-family: 'Verdana';
+}
+    /* Estilo del buscador */
+.buscador-centrado{
+    flex-grow: 1; 
+    display: flex; 
+    justify-content: center;
+    }
+.search-box{
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+}   
+.search-box input[type="text"]{
+    font-family: 'Century Gothic'; 
+    font-size: 15px; 
+    padding: 10px; 
+    margin: 8px; 
+    border: 0; 
+    border-radius: 3px; 
+    width: 400px;
+}
+.search-box button[type="submit"]{
+    font-family: 'Century Gothic'; 
+    font-size: 15px; 
+    padding: 10px; 
+    border: 0; 
+    border-radius: 3px; 
+    background-color: #2402; 
+    color: white; 
+    cursor: pointer; 
+    width: 130px;
+}
+
+.search-box input[type="submit"]{
+    font-family: 'Century Gothic'; 
+    font-size: 15px; 
+    padding: 10px; 
+    border: 0; 
+    border-radius: 3px; 
+    background-color: #2402; 
+    color: white; 
+    cursor: pointer; 
+    width: 130px;
+}
+
+/* Estilo del nav de inicio */
+#nav {
+    display: flex;
+    }
+.img-inicio {
+    height: 40px; 
+    padding-right: 10px;
+}
+    /* Contenedor principal de publicaciones */
+#publicaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px auto; 
+    width: 90%;
+}
+    /* Estilo para cada publicación individual */
+.publicaciones{
+    background-color:#f9f9f9 ;
+    width: 100%; 
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f9f9f9; 
+    border-radius: 10px; 
+    padding: 15px; 
+    margin-bottom: 20px;
+}
+    /*Estilo para el texto del usuario */
+.publicaciones p {
+    margin: 5px 0;
+}
+.publicaciones strong {
+    font-weight: bold; 
+    color: #333;
+}
+.publicaciones small {
+    color: #666;
+    font-size: 0.9em;
+}
+    /* Margen superior para evitar que el contenido quede oculto bajo el header */
+main {
+    margin-top: 70px;
+}
+
